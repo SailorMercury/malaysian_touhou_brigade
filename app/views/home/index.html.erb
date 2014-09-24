@@ -6,15 +6,15 @@
 
 				<ul class="example-orbit" data-orbit>
 				  <li>
-				    <%= image_tag("sample1.jpg")%>
+				    <%= image_tag("banner/banner1.jpg")%>
 				    <div class="orbit-caption">
-				      Caption One.
+				      End of Animangaki 2014
 				    </div>
 				  </li>
 				  <li class="active">
-				    <%= image_tag("sample2.jpg")%>
+				    <%= image_tag("banner/banner2.jpg")%>
 				    <div class="orbit-caption">
-				      Caption Two.
+				      Animangaki 2014 Goofing around
 				    </div>
 				  </li>
 				</ul>
@@ -56,7 +56,7 @@
           <p>We'd love to hear from you, you attractive person you.</p>
         </div>
         <div class="large-3 columns">
-          <a href="#" class="radius button right">Contact Us</a>
+          <%= link_to  "Contact us",contact_path, class: "radius button right" %>
         </div>
       </div>
     </div>
